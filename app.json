@@ -40,7 +40,7 @@
     "SITE_NAME": {
       "description": "Name of your site, will be displayed in the email title",
       "required": false
-    }
+    },
     "SERVICE": {
       "description": "The service from your email host eg. gmail",
       "required": true
