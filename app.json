@@ -1,7 +1,7 @@
 {
   "name": "Mailer",
   "description": "Mailer is a app to send form submissions by email",
-  "logo": "https://igorkowalczyk.github.io/lib/favicon/favicon.jpg",
+  "logo": "https://igorkowalczyk.github.io/mailer/logo.png",
   "repository":"https://github.com/igorkowalczyk/mailer.git",
   "buildpacks": [
     {
