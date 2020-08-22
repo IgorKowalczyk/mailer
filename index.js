@@ -64,11 +64,14 @@ function processFormFieldsIndividual(req, res) {
     });
 
     form.on('end', function () {
-        res.writeHead(200, {
-            'content-type': 'text/plain'
-        });
         sendMail(util.inspect(fields));
+        if (!error) {
+        res.status(200)
         res.write(process.env.MESSAGE || 'Thank you for your submission.');
+        } else {
+        res.status(400)
+        res.write('There are some error occurs! Please try again later');
+        }
         res.end();
     });
     form.parse(req);
