@@ -1,0 +1,32 @@
+{
+  "name": "Mailer",
+  "version": "v0.0.0",
+  "description": "Mailer is a app to send form submissions by email",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Igor Kowalczyk",
+  "bugs": {
+      "url": "https://github.com/igorkowalczyk/mailer/issues"
+    },
+  "homepage": "https://igorkowalczyk.github.io/mailer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igorkowalczyk/mailer.git"
+  },
+  "dependencies": {
+    "formidable": "1.1.1",
+    "nodemailer": "4.0.1"
+  },
+  "keywords": [
+    "mailer",
+	"mail",
+	"nodejs",
+	"javascript",
+	"web-mail",
+	"static"
+	"form"
+  ]
+}
