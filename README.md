@@ -1,11 +1,28 @@
 # Mailer
-It is a simple nodejs server which forwards all POST submission by email. No database, 100% server (Nodejs), just sends the submissions by email.
+It is a simple Node.js server which forwards all "POST" submission by email. No database, 100% server (Nodejs), just sends the submissions by email.
 
 [![Jekyll](https://github.com/IgorKowalczyk/mailer/workflows/Jekyll/badge.svg)](https://igorkowalczyk.github.io/mailer)
 [![Node.js Workflow](https://github.com/igorkowalczyk/mailer/workflows/Node.js/badge.svg)](https://igorkowalczyk.github.io/mailer)
 [![GitHub License](https://img.shields.io/github/license/igorkowalczyk/mailer?color=%2334D058&logo=github&logoColor=959DA5&labelColor=24292E)](https://igorkowalczyk.github.io/mailer)
 [![Version](https://img.shields.io/github/package-json/v/igorkowalczyk/mailer?color=%2334D058&logo=github&logoColor=959DA5&labelColor=24292E)](https://github.com/igorkowalczyk/mailer/releases)
 [![Discord](https://img.shields.io/discord/666599184844980224?color=%2334D058&logo=discord&logoColor=7289da&labelColor=24292E)](https://discord.gg/f4KtqNB)
+
+## How to use?
+You create your front-end and style. Let's build anything you want, we'll take the backend!
+
+#### Example form
+```html
+<form action="https://YOUR-DEPLOYED-APP/post" method="post" enctype="multipart/form-data">
+  <label for="Email">Email
+  <input id="Email" type="email" name="Email" required="true">
+  </label>
+  <label for="Name">Name
+  <input id="Name" type="text" name="Name" required="true">
+  </label>
+  <input type="submit" value="Send">
+</form>
+```
+> Note: Whether you add a `/post` or another endpoint, the app will always handle your request :smile:
 
 ## Deploy
 Deploy the app to [Heroku](https://heroku.com)
