@@ -70,7 +70,6 @@ function processFormFieldsIndividual(req, res) {
         res.write(process.env.MESSAGE || 'Thank you for your submission.');
         res.end();
         } catch(error) {
-        res.status(400)
         res.write('There are some error occurs! Please try again later');
         res.end();
         }
