@@ -63,9 +63,9 @@ function processFormFieldsIndividual(req, res) {
         fields[field] = value;
     });
 
-    form.on('end', function (error) {
+    form.on('end', function () {
         sendMail(util.inspect(fields));
-        if (!error) {
+        catch(error)
         res.status(200)
         res.write(process.env.MESSAGE || 'Thank you for your submission.');
         } else {
