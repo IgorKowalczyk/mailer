@@ -63,7 +63,7 @@ function processFormFieldsIndividual(req, res) {
         fields[field] = value;
     });
 
-    form.on('end', function () {
+    form.on('end', function (error) {
         sendMail(util.inspect(fields));
         if (!error) {
         res.status(200)
