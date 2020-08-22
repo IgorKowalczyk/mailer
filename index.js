@@ -66,14 +66,14 @@ function processFormFieldsIndividual(req, res) {
     form.on('end', function () {
         try {
         sendMail(util.inspect(fields));
+        res.status(200)
+        res.write(process.env.MESSAGE || 'Thank you for your submission.');
+        res.end();
         } catch(error) {
         res.status(400)
         res.write('There are some error occurs! Please try again later');
-        } else {
-        res.status(200)
-        res.write(process.env.MESSAGE || 'Thank you for your submission.');
-        }
         res.end();
+        }
     });
     form.parse(req);
 }
