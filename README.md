@@ -2,7 +2,7 @@
 It is a simple nodejs server which forwards all POST submission by email. No database, 100% server (Nodejs), just sends the submissions by email.
 
 [![Jekyll](https://github.com/IgorKowalczyk/mailer/workflows/Jekyll/badge.svg)](https://igorkowalczyk.github.io/mailer)
-[![Node.js Workflow](https://github.com/igorkowalczyk/mailer/workflows/Node.js%20Workflow/badge.svg)](https://igorkowalczyk.github.io/mailer)
+[![Node.js Workflow](https://github.com/igorkowalczyk/mailer/workflows/Node.js/badge.svg)](https://igorkowalczyk.github.io/mailer)
 [![GitHub License](https://img.shields.io/github/license/igorkowalczyk/mailer?color=%2334D058&logo=github&logoColor=959DA5&labelColor=24292E)](https://igorkowalczyk.github.io/mailer)
 [![Version](https://img.shields.io/github/package-json/v/igorkowalczyk/mailer?color=%2334D058&logo=github&logoColor=959DA5&labelColor=24292E)](https://github.com/igorkowalczyk/mailer/releases)
 [![Discord](https://img.shields.io/discord/666599184844980224?color=%2334D058&logo=discord&logoColor=7289da&labelColor=24292E)](https://discord.gg/f4KtqNB)
