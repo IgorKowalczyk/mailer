@@ -8,7 +8,7 @@
   },
   "author": "Igor Kowalczyk",
   "bugs": {
-      "url": "https://github.com/igorkowalczyk/mailer/issues"
+    "url": "https://github.com/igorkowalczyk/mailer/issues"
     },
   "homepage": "https://igorkowalczyk.github.io/mailer",
   "license": "MIT",
@@ -22,11 +22,11 @@
   },
   "keywords": [
     "mailer",
-	"mail",
-	"nodejs",
-	"javascript",
-	"web-mail",
-	"static"
-	"form"
+    "mail",
+    "nodejs",
+    "javascript",
+    "web-mail",
+    "static",
+    "form"
   ]
 }
