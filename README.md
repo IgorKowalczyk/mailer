@@ -22,7 +22,7 @@ You create your front-end and style. Let's build anything you want, we'll take t
   <input type="submit" value="Send">
 </form>
 ```
-> Note: Whether you add a `/post` or another endpoint, the app will always handle your request :smile:
+> Note: Whether you add a `/post` or another endpoint, the app will always handle your request
 
 ## Deploy
 Deploy the app to [Heroku](https://heroku.com)
