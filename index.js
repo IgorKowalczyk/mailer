@@ -93,7 +93,7 @@ let transporter = nodemailer.createTransport({
 function sendMail(text) {
  // setup email data with unicode symbols
  let mailOptions = {
-  from: req.body.email,
+  from: process.env.FROM || 'noreply.igorkowalczyk@gmail.com',
   to: process.env.TO,
   subject: 'New form submission from' + (process.env.SITE_NAME ? ' on ' + process.env.SITE_NAME : ''),
   text: text
