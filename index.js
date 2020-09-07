@@ -11,8 +11,8 @@ var server = http.createServer(function (req, res) {
  if (req.method.toLowerCase() == 'get') {
   displayForm(res);
  } else if (req.method.toLowerCase() == 'post') {
-  processAllFieldsOfTheForm(req, res);
-  //processFormFieldsIndividual(req, res);
+  //processAllFieldsOfTheForm(req, res);
+  processFormFieldsIndividual(req, res);
  }
 });
 
@@ -93,12 +93,12 @@ let transporter = nodemailer.createTransport({
 function sendMail(text) {
  // setup email data with unicode symbols
  let mailOptions = {
-  from: process.env.FROM || 'Email form data bot <noreply.igorkowalczyk@gmail.com>',
+  from: req.body.email,
   to: process.env.TO,
   subject: 'New form submission from' + (process.env.SITE_NAME ? ' on ' + process.env.SITE_NAME : ''),
   text: text
 };
- console.log('sending email: ', mailOptions);
+ console.log('Mailer: Sending email: ', mailOptions);
  // send mail with defined transport object
  transporter.sendMail(mailOptions, (error, info) => {
   if (error) {
