@@ -20,7 +20,7 @@ router.post("/api", function(req, res) {
  const email = req.email;
  const mailOptions = {
   from: process.env.FROM,
-  to: "yuj93762@eoopy.com",
+  to: process.env.TO,
   subject: subject,
   html: `<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
