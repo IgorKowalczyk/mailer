@@ -6,19 +6,23 @@
   "scripts": {
     "start": "node index.js"
   },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.10"
+  },
+  "engines": {
+    "node": "12.x"
+  },
   "author": "Igor Kowalczyk",
   "bugs": {
     "url": "https://github.com/igorkowalczyk/mailer/issues"
-    },
+  },
   "homepage": "https://igorkowalczyk.github.io/mailer",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/igorkowalczyk/mailer.git"
-  },
-  "dependencies": {
-    "formidable": "1.1.1",
-    "nodemailer": "4.0.1"
   },
   "keywords": [
     "mailer",
