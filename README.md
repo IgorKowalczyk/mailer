@@ -1,3 +1,5 @@
+> This repository is outdated. Do not use it on production!
+
 # Mailer
 It is a simple Node.js server which forwards all "POST" submission by email. No database, 100% server (Nodejs), just sends the submissions by email.
 
