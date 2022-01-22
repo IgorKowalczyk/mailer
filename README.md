@@ -7,7 +7,7 @@ It is a simple Node.js server which forwards all "POST" submission by email. No 
 [![Node.js Workflow](https://github.com/igorkowalczyk/mailer/workflows/Node.js/badge.svg)](https://igorkowalczyk.github.io/mailer)
 [![GitHub License](https://img.shields.io/github/license/igorkowalczyk/mailer?color=%2334D058&logo=github&logoColor=959DA5&labelColor=24292E)](https://igorkowalczyk.github.io/mailer)
 [![Version](https://img.shields.io/github/package-json/v/igorkowalczyk/mailer?color=%2334D058&logo=github&logoColor=959DA5&labelColor=24292E)](https://github.com/igorkowalczyk/mailer/releases)
-[![Discord](https://img.shields.io/discord/666599184844980224?color=%2334D058&logo=discord&logoColor=7289da&labelColor=24292E)](https://igorkowalczyk.github.io/majobot/server)
+[![Discord](https://img.shields.io/discord/666599184844980224?color=%2334D058&logo=discord&logoColor=7289da&labelColor=24292E)](https://igorkowalczyk.github.io/r/discord-server)
 
 ## How to use?
 You create your front-end and style. Let's build anything you want, we'll take the backend!
